@@ -1,0 +1,1319 @@
+error: 
+    status - 500 
+    message - TypeError: _joi.default.string(...).min(...).required(...).unique is not a function
+    at newUserValidator (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\validators\user.validator.js:16:61)
+    at Layer.handle [as handle_request] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:174:3) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T10:32:23.462Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.string(...).min(...).required(...).unique is not a function
+    at newUserValidator (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\validators\user.validator.js:16:61)
+    at Layer.handle [as handle_request] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:174:3) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T10:33:51.401Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.string(...).min(...).required(...).unique is not a function
+    at newUserValidator (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\validators\user.validator.js:16:56)
+    at Layer.handle [as handle_request] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:174:3) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T10:34:56.251Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.string(...).min(...).required(...).unique is not a function
+    at newUserValidator (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\validators\user.validator.js:16:56)
+    at Layer.handle [as handle_request] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:174:3) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T10:39:57.295Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T10:42:08.023Z"}
+error: 
+    status - 500 
+    message - ValidationError: "emailID" is required 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T10:43:22.581Z"}
+error: 
+    status - 500 
+    message - ValidationError: "emailID" is required 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T10:43:32.683Z"}
+error: 
+    status - 500 
+    message - ValidationError: "emailID" is required 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T10:43:34.280Z"}
+error: 
+    status - 500 
+    message - ValidationError: "emailID" length must be at least  characters long 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T10:43:45.400Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is required 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T10:45:32.330Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is required 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T10:45:35.376Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least  characters long 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T10:45:45.970Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: email: Path `email` is required., lastName: Path `lastName` is required., firstName: Path `firstName` is required.
+    at model.Document.invalidate (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T10:46:50.126Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: password: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "password"
+    at model.Document.invalidate (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at model.$set (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\document.js:1349:12)
+    at model.$set (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\document.js:1058:16)
+    at model.Document (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\model.js:106:12)
+    at new model (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\model.js:4911:15)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\model.js:3157:22
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\model.js:3193:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\model.js:3192:15
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\index.js:1149:10)
+    at Function.create (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\model.js:3127:23)
+    at _callee2$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:60:37) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T15:43:19.145Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: password: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "password"
+    at model.Document.invalidate (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at model.$set (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\document.js:1349:12)
+    at model.$set (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\document.js:1058:16)
+    at model.Document (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\model.js:106:12)
+    at new model (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\model.js:4911:15)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\model.js:3157:22
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\model.js:3193:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\model.js:3192:15
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\index.js:1149:10)
+    at Function.create (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\model.js:3127:23)
+    at _callee2$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:60:37) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T15:43:29.060Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: password: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "password"
+    at model.Document.invalidate (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at model.$set (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\document.js:1349:12)
+    at model.$set (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\document.js:1058:16)
+    at model.Document (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\model.js:106:12)
+    at new model (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\model.js:4911:15)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\model.js:3157:22
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\model.js:3193:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\model.js:3192:15
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\index.js:1149:10)
+    at Function.create (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\model.js:3127:23)
+    at _callee2$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:60:37) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T15:43:30.696Z"}
+error: 
+    status - 500 
+    message - TypeError: _bcrypt.default.hashsync is not a function
+    at _callee2$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:57:49)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.userRegistration (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:75:18)
+    at _callee3$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\controllers\user.controller.js:135:32)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T15:46:41.681Z"}
+error: 
+    status - 500 
+    message - TypeError: _bcrypt.default.hashsync is not a function
+    at _callee2$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:57:49)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.userRegistration (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:75:18)
+    at _callee3$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\controllers\user.controller.js:135:32)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T15:46:46.872Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: password: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "password"
+    at model.Document.invalidate (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at model.$set (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\document.js:1349:12)
+    at model.$set (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\document.js:1058:16)
+    at model.Document (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\model.js:106:12)
+    at new model (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\model.js:4911:15)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\model.js:3157:22
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\model.js:3193:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\model.js:3192:15
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\index.js:1149:10)
+    at Function.create (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\model.js:3127:23)
+    at _callee2$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:60:37) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T15:47:56.252Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: password: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "password"
+    at model.Document.invalidate (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at model.$set (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\document.js:1349:12)
+    at model.$set (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\document.js:1058:16)
+    at model.Document (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\model.js:106:12)
+    at new model (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\model.js:4911:15)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\model.js:3157:22
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\model.js:3193:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\model.js:3192:15
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\index.js:1149:10)
+    at Function.create (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\model.js:3127:23)
+    at _callee2$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:60:37) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T15:47:58.163Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: password: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "password"
+    at model.Document.invalidate (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at model.$set (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\document.js:1349:12)
+    at model.$set (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\document.js:1058:16)
+    at model.Document (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\model.js:106:12)
+    at new model (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\model.js:4911:15)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\model.js:3157:22
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\model.js:3193:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\model.js:3192:15
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\index.js:1149:10)
+    at Function.create (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\mongoose\lib\model.js:3127:23)
+    at _callee2$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:60:37) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T15:48:23.566Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: user.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/userregister 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-21T16:35:01.533Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\middlewares\error.middleware.js:43:26)
+    at Layer.handle_error (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:321:13)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T16:35:01.538Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: user.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/userregister 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-21T16:36:34.850Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\middlewares\error.middleware.js:43:26)
+    at Layer.handle_error (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:321:13)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T16:36:34.853Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/userregister 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-21T16:44:05.233Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: user.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/userregister 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-21T16:45:59.195Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\middlewares\error.middleware.js:43:26)
+    at Layer.handle_error (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:321:13)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T16:45:59.200Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: user.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/userregister 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-21T16:46:41.415Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\middlewares\error.middleware.js:43:26)
+    at Layer.handle_error (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:321:13)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T16:46:41.418Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: user.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/userregister 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-21T16:51:50.121Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\middlewares\error.middleware.js:43:26)
+    at Layer.handle_error (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:321:13)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T16:51:50.123Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: user.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/userregister 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-21T16:52:30.668Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\middlewares\error.middleware.js:43:26)
+    at Layer.handle_error (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:321:13)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T16:52:30.671Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: user.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/userregister 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-21T16:52:41.821Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\middlewares\error.middleware.js:43:26)
+    at Layer.handle_error (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:321:13)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T16:52:41.824Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/userregister 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-21T16:55:23.419Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: user.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/userregister 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-21T17:06:18.593Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\middlewares\error.middleware.js:43:26)
+    at Layer.handle_error (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:321:13)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T17:06:18.601Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: user.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/userregister 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-21T17:10:25.139Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\middlewares\error.middleware.js:43:26)
+    at Layer.handle_error (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:321:13)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T17:10:25.143Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T17:14:09.983Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: user.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/userregister 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-21T17:15:29.736Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\middlewares\error.middleware.js:43:26)
+    at Layer.handle_error (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:321:13)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T17:15:29.739Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: user.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/userregister 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-21T17:18:07.842Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\middlewares\error.middleware.js:43:26)
+    at Layer.handle_error (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:321:13)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T17:18:07.845Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: user.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/userregister 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-21T17:22:30.719Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\middlewares\error.middleware.js:43:26)
+    at Layer.handle_error (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:321:13)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T17:22:30.726Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: user.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/userregister 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-21T17:34:03.970Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\middlewares\error.middleware.js:43:26)
+    at Layer.handle_error (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:321:13)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T17:34:03.977Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: user.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/userregister 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-22T02:34:03.807Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\middlewares\error.middleware.js:43:26)
+    at Layer.handle_error (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:321:13)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-22T02:34:03.817Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: user.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/userregister 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-22T03:25:42.369Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\middlewares\error.middleware.js:43:26)
+    at Layer.handle_error (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:321:13)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-22T03:25:42.372Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: user.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/userregister 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-22T03:29:32.833Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\middlewares\error.middleware.js:43:26)
+    at Layer.handle_error (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:321:13)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-22T03:29:32.840Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at _callee3$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:92:25)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.login (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:131:18)
+    at _callee4$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\controllers\user.controller.js:176:32)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-22T04:54:43.800Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-22T04:55:14.108Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-22T05:04:05.509Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-22T05:04:06.613Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-22T05:04:07.548Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is required 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-22T05:41:58.795Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at _callee3$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:92:25)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.login (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:131:18)
+    at _callee4$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\controllers\user.controller.js:176:32)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-22T05:43:27.213Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at _callee3$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:92:25)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.login (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:131:18)
+    at _callee4$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\controllers\user.controller.js:176:32)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-22T05:48:13.390Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at _callee3$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:92:25)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.login (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:131:18)
+    at _callee4$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\controllers\user.controller.js:176:32)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-22T05:53:42.288Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at _callee3$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:92:25)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.login (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:131:18)
+    at _callee4$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\controllers\user.controller.js:176:32)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-22T05:53:43.976Z"}
+error: 
+    status - 500 
+    message - Error: password is invalid
+    at _callee3$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:122:19)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-22T11:39:28.053Z"}
+error: 
+    status - 500 
+    message - Error: password is invalid
+    at _callee3$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:122:19)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-23T02:30:25.162Z"}
+error: 
+    status - 500 
+    message - Error: password is invalid
+    at _callee3$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:122:19)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-23T04:06:39.376Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 75
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-23T04:07:12.726Z"}
+error: 
+    status - 500 
+    message - Error: data must be a string or Buffer and hash must be a string
+    at Object.compareSync (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\bcrypt\bcrypt.js:170:15)
+    at _callee3$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:107:48)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-23T04:07:23.563Z"}
+error: 
+    status - 500 
+    message - Error: password is invalid
+    at _callee3$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:122:19)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-23T04:07:36.159Z"}
+error: 
+    status - 500 
+    message - Error: password is invalid
+    at _callee3$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:122:19)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-23T04:07:46.642Z"}
+error: 
+    status - 500 
+    message - Error: password is invalid
+    at _callee3$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:122:19)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-23T04:07:58.793Z"}
+error: 
+    status - 500 
+    message - Error: password is invalid
+    at _callee3$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:122:19)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-23T04:11:24.676Z"}
+error: 
+    status - 500 
+    message - Error: password is invalid
+    at _callee3$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:122:19)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-23T04:12:11.337Z"}
+error: 
+    status - 500 
+    message - Error: password is invalid
+    at _callee3$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:122:19)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-23T06:06:59.669Z"}
+error: 
+    status - 500 
+    message - Error: password is invalid
+    at _callee3$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:122:19)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-23T06:07:02.085Z"}
+error: 
+    status - 500 
+    message - Error: password is invalid
+    at _callee3$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:122:19)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-23T06:07:20.892Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-23T06:07:45.633Z"}
+error: 
+    status - 500 
+    message - Error: password is invalid
+    at _callee3$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:122:19)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-23T06:12:53.087Z"}
+error: 
+    status - 500 
+    message - Error: password is invalid
+    at _callee3$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:122:19)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-23T06:13:05.663Z"}
+error: 
+    status - 500 
+    message - Error: password is invalid
+    at _callee3$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:122:19)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-23T06:13:11.442Z"}
+error: 
+    status - 500 
+    message - Error: password is invalid
+    at _callee3$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:122:19)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-23T08:20:17.671Z"}
+error: 
+    status - 500 
+    message - Error: password is invalid
+    at _callee3$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:122:19)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-23T08:34:17.139Z"}
+error: 
+    status - 500 
+    message - Error: password is invalid
+    at _callee3$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:122:19)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-23T08:34:29.445Z"}
+error: 
+    status - 500 
+    message - Error: password is invalid
+    at _callee3$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:122:19)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-23T08:34:39.021Z"}
+error: 
+    status - 500 
+    message - Error: password is invalid
+    at _callee3$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:122:19)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-23T08:37:35.010Z"}
+error: 
+    status - 500 
+    message - Error: password is invalid
+    at _callee3$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:122:19)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-23T08:39:35.451Z"}

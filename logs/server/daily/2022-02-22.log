@@ -1,0 +1,278 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T02:32:23.036Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T02:32:23.078Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: user.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/userregister 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-22T02:34:03.807Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\middlewares\error.middleware.js:43:26)
+    at Layer.handle_error (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:321:13)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-22T02:34:03.817Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: user.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/userregister 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-22T03:25:42.369Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\middlewares\error.middleware.js:43:26)
+    at Layer.handle_error (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:321:13)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-22T03:25:42.372Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T03:29:16.740Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T03:29:16.790Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: user.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/userregister 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-22T03:29:32.833Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\middlewares\error.middleware.js:43:26)
+    at Layer.handle_error (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:321:13)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-22T03:29:32.840Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T03:35:29.798Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T03:35:29.842Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T04:53:53.890Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T04:53:53.932Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at _callee3$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:92:25)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.login (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:131:18)
+    at _callee4$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\controllers\user.controller.js:176:32)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-22T04:54:43.800Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-22T04:55:14.108Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-22T05:04:05.509Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-22T05:04:06.613Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-22T05:04:07.548Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T05:40:00.008Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T05:40:00.050Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is required 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-22T05:41:58.795Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at _callee3$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:92:25)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.login (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:131:18)
+    at _callee4$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\controllers\user.controller.js:176:32)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-22T05:43:27.213Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T05:47:52.672Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T05:47:52.716Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at _callee3$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:92:25)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.login (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:131:18)
+    at _callee4$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\controllers\user.controller.js:176:32)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-22T05:48:13.390Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T05:53:26.753Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T05:53:26.800Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at _callee3$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:92:25)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.login (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:131:18)
+    at _callee4$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\controllers\user.controller.js:176:32)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-22T05:53:42.288Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at _callee3$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:92:25)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.login (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:131:18)
+    at _callee4$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\controllers\user.controller.js:176:32)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-22T05:53:43.976Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T05:58:08.434Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T05:58:08.481Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T06:00:22.095Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T06:00:22.139Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T06:02:06.476Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T06:02:06.527Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T11:33:30.127Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T11:33:30.155Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T11:39:04.966Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T11:39:04.989Z"}
+error: 
+    status - 500 
+    message - Error: password is invalid
+    at _callee3$ (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\build\services\user.service.js:122:19)
+    at tryCatch (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Vaibhav Ramu Dharmik\project\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-22T11:39:28.053Z"}
