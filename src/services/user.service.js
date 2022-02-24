@@ -1,5 +1,6 @@
 import User from '../models/user.model';
 import bcrypt from 'bcrypt';
+
 //get all users
 export const getAllUsers = async () => {
   const data = await User.find();
@@ -19,16 +20,18 @@ export const userRegistration = async (body) => {
 
 // User login 
 export const login = async (body) => {
-  const user = await User.findOne({ email: body.email });
+  const user = await User.findOne({ emailID: body.emailID });
+  console.log("userdetails", user)
   if (user === null) {
     throw new Error('User does not exist');
   } else {
-    const validPassword = bcrypt.compareSync(body.password, user.password);
+    const validPassword = await bcrypt.compare(body.password, user.password);
+    console.log("result after validation", validPassword)
     if (validPassword) {
       var jwt = require('jsonwebtoken');
       const token = jwt.sign(
-        { email: user.email, id: user._id },
-        'process.env.SECRET_CODE'
+        { emailID: user.emailID, id: user._id },
+        process.env.SECRET_CODE
       );
       return token;
     } else {
