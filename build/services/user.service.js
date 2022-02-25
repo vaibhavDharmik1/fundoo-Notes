@@ -15,6 +15,8 @@ var _user = _interopRequireDefault(require("../models/user.model"));
 
 var _bcrypt = _interopRequireDefault(require("bcrypt"));
 
+var _jsonwebtoken = _interopRequireDefault(require("jsonwebtoken"));
+
 //get all users
 var getAllUsers = /*#__PURE__*/function () {
   var _ref = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee() {
@@ -83,45 +85,50 @@ exports.userRegistration = userRegistration;
 
 var login = /*#__PURE__*/function () {
   var _ref3 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee3(body) {
-    var user, validPassword, jwt, token;
+    var user, validPassword, token;
     return _regenerator["default"].wrap(function _callee3$(_context3) {
       while (1) {
         switch (_context3.prev = _context3.next) {
           case 0:
             _context3.next = 2;
             return _user["default"].findOne({
-              email: body.email
+              emailID: body.emailID
             });
 
           case 2:
             user = _context3.sent;
+            console.log("userdetails", user);
 
             if (!(user === null)) {
-              _context3.next = 7;
+              _context3.next = 8;
               break;
             }
 
             throw new Error('User does not exist');
 
-          case 7:
-            validPassword = _bcrypt["default"].compareSync(body.password, user.password);
+          case 8:
+            _context3.next = 10;
+            return _bcrypt["default"].compare(body.password, user.password);
+
+          case 10:
+            validPassword = _context3.sent;
+            console.log("result after validation", validPassword);
 
             if (!validPassword) {
-              _context3.next = 14;
+              _context3.next = 17;
               break;
             }
 
-            jwt = require('jsonwebtoken');
-            token = jwt.sign({
-              email: user.email,
+            token = _jsonwebtoken["default"].sign({
+              emailID: user.emailID,
               id: user._id
-            }, 'process.env.SECRET_CODE');
+            }, process.env.SECRET_CODE);
             return _context3.abrupt("return", token);
 
-          case 14:
+          case 17:
             throw new Error('password is invalid');
 
-          case 15:
+          case 18:
           case "end":
             return _context3.stop();
         }
