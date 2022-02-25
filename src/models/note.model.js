@@ -13,16 +13,16 @@ const noteSchema = new Schema(
          Color:{
              type:String,
          },
-         userID:{
-             type:String,
-             required: true,
-         },
-        //  isArchived: {
-        //      type: Boolean,
+        //  userID:{
+        //      type:String,
+        //      required: true,
         //  },
-        //  isDeleted: {
-        //      type: Boolean,
-        //  }
+         isArchived: {
+             type: Boolean,
+         },
+         isDeleted: {
+             type: Boolean,
+         }
     },
     {
         timestamps: true

@@ -7,28 +7,32 @@ exports["default"] = void 0;
 
 var _mongoose = require("mongoose");
 
-var userSchema = new _mongoose.Schema({
-  firstname: {
+var noteSchema = new _mongoose.Schema({
+  Title: {
     type: String,
     required: true
   },
-  lastname: {
+  Description: {
     type: String,
     required: true
   },
-  emailID: {
-    type: String,
-    required: true,
-    unique: true
+  Color: {
+    type: String
   },
-  password: {
-    type: String,
-    required: true
+  //  userID:{
+  //      type:String,
+  //      required: true,
+  //  },
+  isArchived: {
+    type: Boolean
+  },
+  isDeleted: {
+    type: Boolean
   }
 }, {
   timestamps: true
 });
 
-var _default = (0, _mongoose.model)('User', userSchema);
+var _default = (0, _mongoose.model)('Note', noteSchema);
 
 exports["default"] = _default;

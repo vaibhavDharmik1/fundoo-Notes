@@ -47,10 +47,10 @@ export const getSingleNote = async (req, res, next) => {
   //update note
   export const updateNote = async (req, res, next) => {
     try {
-      const data = await NoteService.updateNote(req.params._id, req.body);
+      const archieve = await NoteService.updateNote(req.params._id, req.body);
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
-        data: data,
+        data: archieve,
         message: 'Note updated successfully'
       });
     } catch (error) {

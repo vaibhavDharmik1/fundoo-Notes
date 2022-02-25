@@ -1,11 +1,13 @@
 import express from 'express';
 import * as noteController from '../controllers/note.controller';
+import { userAuth } from '../middlewares/auth.middleware';
 import { newNoteValidator } from '../validators/user.validator';
+
 
 const router = express.Router();
 
 // Create a new Note
-router.post('', newNoteValidator, noteController.create);
+router.post('', newNoteValidator, userAuth, noteController.create);
 
 // Retrieve all Notes
 router.get('', noteController.getAllNotes);

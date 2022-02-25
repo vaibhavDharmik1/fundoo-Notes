@@ -1,5 +1,6 @@
 import User from '../models/user.model';
 import bcrypt from 'bcrypt';
+import jwt from 'jsonwebtoken';
 
 //get all users
 export const getAllUsers = async () => {
@@ -28,7 +29,6 @@ export const login = async (body) => {
     const validPassword = await bcrypt.compare(body.password, user.password);
     console.log("result after validation", validPassword)
     if (validPassword) {
-      var jwt = require('jsonwebtoken');
       const token = jwt.sign(
         { emailID: user.emailID, id: user._id },
         process.env.SECRET_CODE
