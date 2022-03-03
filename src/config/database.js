@@ -7,8 +7,9 @@ const database = async () => {
     const DATABASE =
       process.env.NODE_ENV === 'test'
         ? process.env.DATABASE_TEST
-        : process.env.DATABASE;
-
+        : process.env.DATABASE;    
+        
+// // this is to handle deprecation warning
     await mongoose.connect(DATABASE, {
       useFindAndModify: false,
       useCreateIndex: true,

@@ -19,26 +19,56 @@ export const getAllNotes = async () => {
 
 //get single note
 export const getSingleNote = async (_id) => {
-    const data = await Note.findById(id);
+    const data = await Note.findById(_id);
     return data;
   };
   
-//update note
-export const updateNote = async (_id, body) => {
+// Archieve note
+export const archieveById = async (_id) => {
     const archieve = await Note.findByIdAndUpdate(
       {
         _id
       },
-      body,
       {
-       new: true
+      $set: {isArchived: true},
       }
     );
     return archieve;
   };
 
-//delete note
-export const deleteNote = async (id) => {
-    await User.findByIdAndDelete(id);
+//trash note
+export const trashById = async (_id) => {
+   const trash = await Note.findByIdAndDelete(
+     {
+       _id
+     },
+     {
+       $set: {isDeleted: true }
+     }
+   );
+    return trash;
+  }
+
+  // Update note
+  
+export const updateById  = async (_id, body) => {
+  const update = await Note.findByIdAndUpdate(
+    {
+      _id
+    },
+    body,
+    {
+     new: true
+    }
+  );
+  return update;
+};
+
+
+
+  // Delete note
+  
+export const deleteNote = async (_id) => {
+    await Note.findByIdAndDelete(_id);
     return '';
   };
