@@ -13,10 +13,10 @@ const noteSchema = new Schema(
          Color:{
              type:String,
          },
-        //  userID:{
-        //      type:String,
-        //      required: true,
-        //  },
+         userID:{
+             type:String,
+            
+         },
          isArchived: {
              type: Boolean,
          },

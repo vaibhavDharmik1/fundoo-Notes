@@ -10,15 +10,21 @@ const router = express.Router();
 router.post('', newNoteValidator, userAuth, noteController.create);
 
 // Retrieve all Notes
-router.get('', noteController.getAllNotes);
+router.get('', userAuth, noteController.getAllNotes);
 
 // Retrieve a single Note with noteId
-router.get('/:_id', noteController.getSingleNote);
+router.get('/:_id', userAuth, noteController.getSingleNote);
 
-// Update a Note with noteId
-router.put('/:_id', noteController.updateNote);
+// note added to archive
+router.put('/archive/:_id',userAuth , noteController.archieveById);
 
-// Delete a Note with noteId
-router.delete('/:_id', noteController.deleteNote);
+// Note added to trash
+router.put('/trash/:_id', userAuth , noteController.trashById);
+
+// Note update by id
+router.put('/:_id', userAuth , noteController.updateById);
+
+// Note Delete by id
+router.delete('/:_id', userAuth, noteController.deleteNote);
 
 export default router;
