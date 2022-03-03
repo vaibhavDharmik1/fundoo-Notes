@@ -1,26 +1,24 @@
 import express from 'express';
 import * as userController from '../controllers/user.controller';
 import { newUserValidator } from '../validators/user.validator';
-import { userAuth } from '../middlewares/auth.middleware';
+import { Auth } from '../middlewares/auth.middleware';
 
 const router = express.Router();
 
-//route to get all users
-router.get('', userController.getAllUsers);
 
 //route to create a new user
 router.post('/userregister', newUserValidator, userController.userRegistration);
 
 // route to login
-router.get('/login', userController.login);
+router.post('/login', userController.login);
 
-//route to get a single user by their user id
-router.get('/:_id', userAuth, userController.getUser);
+// forget password
 
-//route to update a single user by their user id
-router.put('/:_id', userController.updateUser);
+router.post('/forgetpassword', userController.forgetPassword);
 
-//route to delete a single user by their user id
-router.delete('/:_id', userController.deleteUser);
+// Reset password
+router.put('/reset/:_id',Auth, userController.resetPassword);
+
+
 
 export default router;
