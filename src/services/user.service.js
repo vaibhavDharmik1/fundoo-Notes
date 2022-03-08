@@ -2,6 +2,7 @@ import User from '../models/user.model';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import { mailSend } from '../utils/helper';
+import { sender } from '../utils/rabbitmq';
 
 //create new user
 export const userRegistration = async (body) => {
@@ -36,7 +37,7 @@ export const forgetPassword = async (body) => {
 
   if ( user.emailID != null) {
     const token = jwt.sign({'email': user.emailID,'id':user._id},process.env.SECRET_CODE2);
-    const sendingEmail = mailSend(user.emailID, token)
+    const sendingEmail = await mailSend(user.emailID, token)
     return token;
   } else {
     throw new Error ('email does not match');

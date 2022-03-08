@@ -20,9 +20,17 @@ export const mailSend =(userMailID, token) => {
         subject: "Password Reset Link ",
         html: `<h1>Link:><a href="http://localhost:3000/${token}">click here</a></h1>`
     }
-    transport.sendMail (mailoption,(err, info) => {
-        const sendEmailInfo = err ? logger.log('error', err) : logger.log('info',info);
-        return sendEmailInfo;
-    }
-    )
+    return new Promise((resolve,reject)=>{
+        transport.sendMail(mailoption,(err,info)=> {
+            if(err){
+                logger.log('error', err);
+                //throw new Error("Something went wrong while sending reset password link....")
+                return reject('Something went wrong while sending reset password link....');
+            }
+            else{
+                logger.log('info', info);
+                return resolve('Reset password link send successfully');
+            }
+        })
+    });
 }
