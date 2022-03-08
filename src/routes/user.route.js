@@ -17,7 +17,7 @@ router.post('/login', userController.login);
 router.post('/forgetpassword', userController.forgetPassword);
 
 // Reset password
-router.put('/reset/:_id',Auth, userController.resetPassword);
+router.put('/reset',Auth, userController.resetPassword);
 
 
 

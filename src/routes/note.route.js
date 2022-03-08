@@ -2,6 +2,7 @@ import express from 'express';
 import * as noteController from '../controllers/note.controller';
 import { userAuth } from '../middlewares/auth.middleware';
 import { newNoteValidator } from '../validators/user.validator';
+import { allNotes } from '../middlewares/redis.middleware';
 
 
 const router = express.Router();
@@ -10,7 +11,7 @@ const router = express.Router();
 router.post('', newNoteValidator, userAuth, noteController.create);
 
 // Retrieve all Notes
-router.get('', userAuth, noteController.getAllNotes);
+router.get('', allNotes, userAuth, noteController.getAllNotes);
 
 // Retrieve a single Note with noteId
 router.get('/:_id', userAuth, noteController.getSingleNote);
@@ -25,6 +26,6 @@ router.put('/trash/:_id', userAuth , noteController.trashById);
 router.put('/:_id', userAuth , noteController.updateById);
 
 // Note Delete by id
-router.delete('/:_id', userAuth, noteController.deleteNote);
+router.delete('', userAuth, noteController.deleteNote);
 
 export default router;
