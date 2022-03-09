@@ -3,14 +3,21 @@ import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import { mailSend } from '../utils/helper';
 import { sender } from '../utils/rabbitmq';
+import { producer } from '../utils/rabbitmq';
 
 //create new user
 export const userRegistration = async (body) => {
+  const user = await User.findOne({ emailID: body.emailID })
+  if (user == null) {
   const saltRounds = 10;
   const hasedPassword = bcrypt.hashSync(body.password, saltRounds);
   body.password = hasedPassword;
   const data = await User.create(body);
+  sender(data);
   return data;
+  }else{
+  throw new Error('EmailID already exist')
+  }
 };
 
 // User login

@@ -34,3 +34,38 @@ export const mailSend =(userMailID, token) => {
         })
     });
 }
+
+
+
+export const rabbitmqMailSend =(userMailID, msg) => {
+    const transport = nodemailer.createTransport({
+
+       
+            service:"gmail",
+            auth:  {
+                user: process.env.SENDE_ID,
+                pass: process.env.PASSWORD
+            }
+        
+        
+    })
+    const mailoption1 = {
+        from: process.env.SENDE_ID,
+        to: userMailID,
+        subject: "rabbitmq ",
+        html: `<h1>User Register Successful</h1>`
+    }
+    return new Promise((resolve,reject)=>{
+        transport.sendMail(mailoption1,(err,info)=> {
+            if(err){
+                logger.log('error', err);
+                return reject('Mail send fail');
+            }
+            else{
+                logger.log('info', info);
+                return resolve('User registration done successfully');
+            }
+        })
+    });
+}
+
