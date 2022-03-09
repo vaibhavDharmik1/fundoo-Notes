@@ -2,7 +2,7 @@ import winston, { format } from 'winston';
 import 'winston-daily-rotate-file';
 
 /**
- * Logger handles all logs in the application
+ * Logger handles all logs in the application. It can be used to display errors, warning and debug messages
  */
 const logger = winston.createLogger({
   format: format.combine(format.timestamp(), format.simple()),

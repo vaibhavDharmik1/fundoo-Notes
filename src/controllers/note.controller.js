@@ -15,7 +15,7 @@ export const create = async (req, res, next) => {
     next(error);
   }
 };
-
+ 
 //retrieve all notes
 export const getAllNotes = async (req, res, next) => {
   try {
